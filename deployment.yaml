@@ -14,7 +14,7 @@ selector:
     spec:
       containers:
       - name: healthcare
-        image: bhargavdocker1/healthcare-project-bhargav:1
+        image: bhargavdocker1/healthcare-project-bhargav:1.0
         ports:
         - containerPort: 8084
 
