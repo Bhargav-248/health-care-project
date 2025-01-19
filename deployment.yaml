@@ -4,7 +4,7 @@ metadata:
   name: heathcare
 spec:
   replicas: 1
-  selector:
+selector:
     matchLabels:
       app: healthcare
   template:
@@ -16,7 +16,7 @@ spec:
       - name: healthcare
         image: bhargavdocker1/healthcare-project-bhargav:1
         ports:
-        - containerPort: 8085
+        - containerPort: 8084
 
 ---
 apiVersion: apps/v1
